@@ -21,14 +21,19 @@ Build a multi agent LangFlow pipeline that helps a PM prioritize features for th
 
 # Solution
 We Will Use the below agents on langflow platform , each of them performing specific tasks using system prompts and Open AI LLM model.
-1. Planner Agent - Breaks down the decision into tasks, identifies missing info, defines criteria. Does NOT recommend. 
-2. Analyzer Agent - Makes a recommendation with tradeoffs, risks, and next steps. 
-3. Critic Agent - Finds holes, challenges assumptions, gives a verdict( Approve / Revise/ Escalate )
-4. Reviser Agent - Reviser fixes the memo using critique, provide Clearer mitigations + stronger next steps.
+**Planner Agent** - Breaks down the decision into tasks, identifies missing info, defines criteria. Does NOT recommend. 
+**Analyzer Agent** - Makes a recommendation with tradeoffs, risks, and next steps. 
+**Critic Agent** - Finds holes, challenges assumptions, gives a verdict( Approve / Revise/ Escalate )
+**Reviser Agent** - Reviser fixes the memo using critique, provide Clearer mitigations + stronger next steps.
 
 # System Design
+assets/Simple PM Agent.png
 
 # Scaling_Stragey
+docs/Scaling_Strategy.md
+
+# Setup Instructions
+docs/Setup_Instructions.md
 
 # Demo
 
