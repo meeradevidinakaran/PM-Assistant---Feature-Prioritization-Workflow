@@ -236,3 +236,4 @@ secrets.json
 #data/*.csv
 #data/*.pdf
 !data/.gitkeep
+data/.keep
