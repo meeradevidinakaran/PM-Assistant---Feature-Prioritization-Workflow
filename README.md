@@ -25,6 +25,7 @@ We Will Use the below agents on langflow platform , each of them performing spec
 **Analyzer Agent** - Makes a recommendation with tradeoffs, risks, and next steps. 
 **Critic Agent** - Finds holes, challenges assumptions, gives a verdict( Approve / Revise/ Escalate )
 **Reviser Agent** - Reviser fixes the memo using critique, provide Clearer mitigations + stronger next steps.
+![Solution](assets/PMWorkflow.png)
 
 # System Design
 ![SystemDesign](assets/SimplePMAgent.png)
