@@ -21,17 +21,19 @@ The goal is to build a multi‑agent LangFlow pipeline that assists product mana
 
 # Solution
 We Will Use the below agents on langflow platform , each of them performing specific tasks using system prompts and Open AI LLM model.
+
 **Planner Agent** - Breaks down the decision into tasks, identifies missing info, defines criteria. Does NOT recommend. 
 **Analyzer Agent** - Makes a recommendation with tradeoffs, risks, and next steps. 
 **Critic Agent** - Finds holes, challenges assumptions, gives a verdict( Approve / Revise/ Escalate )
 **Reviser Agent** - Reviser fixes the memo using critique, provide Clearer mitigations + stronger next steps.
+
 ![Solution](assets/PMWorkflow.png)
 
 # System Design
 ![SystemDesign](assets/SimplePMAgent.png)
 
-# Scaling_Stragey
-![ScalingStrategy](docs/Scaling_Strategy.md)
-
 # Setup Instructions
 ![Setup_Instructions](docs/Setup_Instructions.md)
+
+# Scaling_Stragey
+Full implementation templates and production scaling strategies are maintained in a private repository; access for technical review is available upon request
