@@ -30,7 +30,7 @@ We Will Use the below agents on langflow platform , each of them performing spec
 ![Solution](assets/PMWorkflow.png)
 
 # System Design
-![SystemDesign](assets/SimplePMAgent.png)
+![SystemDesign](assets/PMAssistant.png)
 
 # Setup Instructions
 ![Setup_Instructions](docs/Setup_Instructions.md)
